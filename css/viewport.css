@@ -9,7 +9,6 @@
     .container-info {
         width: 100%;
         padding: 32px;
-        border: 2px solid black;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -22,11 +21,15 @@
     }
     .title-info h3 {
         font-size: 21px;
-        margin-bottom: 10px;
+        margin-bottom: 23px;
+        padding-bottom: 20px;
+        text-align: center;
+        border-bottom: 1px solid rgba(211, 84, 0, .2);
     }
     
     .title-info p {
         font-size: 14px;
+        text-align: center;
     }
 
 
@@ -43,8 +46,6 @@
     .cards-info {
         margin-bottom: 32px;
         margin-right: 2px;
-        /* width: 200px;
-        height: 250px; */
     }
 
     .cards-info img {
@@ -54,7 +55,7 @@
     }
 
     .cards-info .read {
-        padding: 2px;
+        padding: 12px;
     }
 
     .read a {
@@ -71,3 +72,8 @@
 
     
 }
+
+
+
+
+
