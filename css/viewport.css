@@ -50,8 +50,7 @@
 
     .cards-info img {
         background-size: cover;
-        width: 200px;
-        height: 250px;
+        width: 100%;
     }
 
     .cards-info .read {
@@ -77,3 +76,44 @@
 
 
 
+
+
+
+
+
+
+/* haris */
+/*media screen*/
+@media screen and (max-width: 1000px) { 
+	.promo .sub-promo	{
+		flex-basis: 33.33%;
+		height: 190px;
+		margin-bottom: 4%;
+		text-align: center;	
+	}
+	.promotion	{
+		margin-left: 5%;
+	}
+	.judul	{
+		margin-bottom: 3%;
+		margin-left: 2%;
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.promo .sub-promo	{
+		flex-basis: 50%;
+		height: 190px;
+		margin-bottom: 4%;	
+		text-align: center;	
+	}
+	.promotion	{
+		margin-left: 3.5%;
+	}
+	.judul	{
+		margin-bottom: 3%;
+		margin-left: 2%;
+		margin-bottom: 5%;
+	}
+}
