@@ -1,0 +1,76 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* nanti dihapus aja */
+nav, header, aside,
+main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* ============ nico ============= */
+nav {
+    height: 60px;
+    background-color: #eba41f;
+}
+
+header {
+    height: 420px;
+    background-color: #ddd;
+}
+
+/* ============ nico akhir ============= */
+
+
+
+
+
+
+
+/* ============ abdul haris ============= */
+aside.sesuaikan {
+    height: 300px;
+    background-color: #eba41f;
+}
+
+/* =========== abdul haris akhir =========== */
+
+
+
+
+/* =========== anisa ============ */
+main {
+    height: 500px;
+    background-color: #ddd;
+}
+
+
+/* ============== anisa akhir ============== */
+
+
+
+
+
+/* ======== dwiyan ========== */
+aside.info {
+    height: 450px;
+    background-color: #fff;
+}
+
+
+footer {
+    background-color: #eba41f;
+    height: 120px;
+}
