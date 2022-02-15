@@ -5,10 +5,10 @@ warna background : #eba41f & white
 ======= TEKS ========
 warna text (background orange) : white
 warna text (background putih): #eba41f
-heading 4 : 48px
-heading 3 : 32px
-heading 2 : 28px
-heading 1 : 18px
+heading 1 : 48px
+heading 2 : 32px
+heading 3 : 28px
+heading 4 : 18px
 
 
 ======== FONT ========

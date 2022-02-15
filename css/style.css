@@ -69,10 +69,19 @@ main {
 
 
 
+
+
+
 /* ======== dwiyan ========== */
 aside.info {
     height: 450px;
     background-color: #fff;
+}
+
+.container-info {
+    width: 90%;
+    border: 2px solid red;
+    height: 400px;
 }
 
 
