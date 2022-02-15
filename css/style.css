@@ -7,8 +7,8 @@ body {
 }
 
 
-/* nanti dihapus aja */
-nav, header, aside,
+/* nanti dihapus aja, */
+ header, aside,
 main, footer {
     display: flex;
     justify-content: center;
@@ -22,8 +22,14 @@ main, footer {
 
 /* ============ nico ============= */
 nav {
-    height: 60px;
+    height: 80px;
     background-color: #eba41f;
+}
+
+
+/* logo */
+nav img {
+    margin-left: 40px;
 }
 
 header {
