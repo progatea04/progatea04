@@ -6,16 +6,30 @@
 
 @media (max-width: 620px) {
     /* dwiyan */
+    .container-info {
+        width: 100%;
+        padding: 32px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .title-info {
         line-height: 16px;
     }
     .title-info h3 {
         font-size: 21px;
-        margin-bottom: 10px;
+        margin-bottom: 23px;
+        padding-bottom: 20px;
+        text-align: center;
+        border-bottom: 1px solid rgba(211, 84, 0, .2);
     }
     
     .title-info p {
         font-size: 14px;
+        text-align: center;
     }
 
 
@@ -23,15 +37,43 @@
     /* card */
     .card-info {
         width: 100%;
-        margin-top: 32px;
+        margin-top: 28px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;   
     }
 
     .cards-info {
         margin-bottom: 32px;
-        width: 300px;
+        margin-right: 2px;
     }
+
+    .cards-info img {
+        background-size: cover;
+        width: 200px;
+        height: 250px;
+    }
+
+    .cards-info .read {
+        padding: 12px;
+    }
+
+    .read a {
+        font-size: 12px;
+    }
+
+    .profile li {
+        padding-bottom: 10px;
+    }
+
+    .profile li a {
+        font-size: 14px;
+    }
+
+    
 }
+
+
+
+
+

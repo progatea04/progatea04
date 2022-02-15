@@ -8,15 +8,13 @@ body {
 }
 
 
-/* nanti dihapus aja, */
+/* nanti dihapus aja,
  header, aside,
 main, footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
+} */
 
 
 
@@ -220,8 +218,9 @@ aside.info {
 
 /* pembungkus */
 .container-info {
-    width: 90%;
-    height: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 32px;
 }
 
 .title-info {
@@ -249,6 +248,8 @@ aside.info {
 
 
 /* card */
+
+
 .card-info {
     width: 100%;
     margin-top: 32px;
@@ -256,12 +257,14 @@ aside.info {
 }
 
 .cards-info {
-    width: 200px;
+    width: 100%;
     height: 320px;
     overflow: hidden;
     border: 1px solid #ddd;
     position: relative;
     margin-right: 32px;
+    border-radius: 4px;
+    box-shadow: 0 5px 9px rgb(226, 223, 223);
 }
 
 .header-card {
@@ -273,6 +276,7 @@ aside.info {
     font-size: 14px;
     text-align: center;
     line-height: 30px;
+    opacity: .6;
 }
 
 .cards-info img {
@@ -291,10 +295,72 @@ aside.info {
 
 .read a {
     color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.read a:hover {
+    color: #e7d5b4;
+}
+
+.read a:active {
+    color: #eba41f;
+}
+
+
+.profile {
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile li {
+    list-style: none;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.profile li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eba41f;
+}
+
+.profile li:hover a {
+    color: grey;
+}
+
+.profile li:active a {
+    color: #fff;
+}
+
+.cd {
+    width: 100px;
+    height: 120px;
+    background-color: #d35400;
+    margin: 60px auto;
+    padding: 4px;
+    transform: rotate(30deg);
+}
+
+.cd h3 {
+    transform: rotate(-30deg);
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
 }
 
 
 footer {
     background-color: #eba41f;
     height: 120px;
+
 }
+
+
+
