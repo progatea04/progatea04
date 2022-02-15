@@ -2,14 +2,23 @@
 warna background : #eba41f & white
 
 
-======= TEKS ========
+======= TEKS tablet ========
 warna text (background orange) : white
 warna text (background putih): #eba41f
-heading 1 : 48px
+heading 1 : 46px
 heading 2 : 32px
 heading 3 : 28px
 heading 4 : 18px
+paragraf : 18px
 
+======= TEKS phone ========
+warna text (background orange) : white
+warna text (background putih): #eba41f
+heading 1 : 32px
+heading 2 : 28px
+heading 3 : 21px
+heading 4 : 16px
+paragraf : 14px
 
 ======== FONT ========
 font family : montserat, sans-serif
@@ -17,4 +26,12 @@ font family : montserat, sans-serif
 
 ======= opacity =======
 opacity: 0.5 sampai 0.8 (atur sendiri)
+
+======== BUTTON ========
+warna background : #d35400
+warna teks : white
+
+========= LINE HEIGHT ======
+tablet 16px
+phone 
 

@@ -4,6 +4,34 @@
 */
 
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
+    /* dwiyan */
+    .title-info {
+        line-height: 16px;
+    }
+    .title-info h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
     
+    .title-info p {
+        font-size: 14px;
+    }
+
+
+
+    /* card */
+    .card-info {
+        width: 100%;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards-info {
+        margin-bottom: 32px;
+        width: 300px;
+    }
 }
