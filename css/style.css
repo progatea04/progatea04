@@ -128,25 +128,25 @@ main {
 
 /*ini kumpulan gambar*/
 .gambar1	{
-	background-image: url(img/cake2.jpg);
+	background-image: url(../image/cake2.jpg);
 }
 .gambar2	{
-	background-image: url(img/croissants2.jpg);
+	background-image: url(../image/croissants2.jpg);
 }
 .gambar3	{
-	background-image: url(img/puding2.jpg);
+	background-image: url(../image/puding2.jpg);
 }
 .gambar4	{
-	background-image: url(img/bread2.jpg);
+	background-image: url(../image/bread2.jpg);
 }
 .gambar5	{
-	background-image: url(img/pancake2.jpg);
+	background-image: url(../image/pancake2.jpg);
 }
 .gambar6	{
-	background-image: url(img/cappuccino2.jpg);
+	background-image: url(../image/cappuccino2.jpg);
 }
 .gambar7	{
-	background-image: url(img/sandwich2.jpg);
+	background-image: url(../image/sandwich2.jpg);
 }
 
 /*saat elemen di hover*/
