@@ -6,6 +6,17 @@
 
 @media (max-width: 620px) {
     /* dwiyan */
+    .container-info {
+        width: 100%;
+        padding: 32px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .title-info {
         line-height: 16px;
     }
@@ -23,15 +34,41 @@
     /* card */
     .card-info {
         width: 100%;
-        margin-top: 32px;
+        margin-top: 28px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;    
     }
 
     .cards-info {
         margin-bottom: 32px;
-        width: 300px;
+        width: 120px;
+        height: 150px;
+    }
+
+    .cards-info img {
+        background-size: cover;
+        width: 120px;
+        height: 120px;
+    }
+
+    .cards-info .read {
+        padding: 2px;
+    }
+
+    .read a {
+        font-size: 12px;
+    }
+
+    .profile li {
+        padding-bottom: 10px;
+    }
+
+    .profile li a {
+        font-size: 14px;
+    }
+
+    footer {
     }
 }
