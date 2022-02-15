@@ -37,21 +37,20 @@
         margin-top: 28px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;    
+        justify-content: center;   
     }
 
     .cards-info {
         margin-bottom: 32px;
         margin-right: 2px;
-        width: 120px;
-        height: 150px;
+        /* width: 200px;
+        height: 250px; */
     }
 
     .cards-info img {
         background-size: cover;
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 250px;
     }
 
     .cards-info .read {
