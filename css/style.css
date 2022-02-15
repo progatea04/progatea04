@@ -61,6 +61,10 @@ aside.sesuaikan {
 
 
 /* =========== haris ============ */
+/*	{
+    box-sizing : border-box;
+}
+
 main {
     padding-top: 48px;
     background-color: #fff;
