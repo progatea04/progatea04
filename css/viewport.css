@@ -5,10 +5,6 @@
 
 
 @media (max-width: 620px) {
-    .container-aside {
-        border: 1px solid black;
-    }
-
     .container-aside h2 {
         font-size: 18px;    
         text-align: center;
