@@ -293,12 +293,17 @@
     }
     
     .head-left {
-        width: 70%;
-        position: relative;
+        width: 60%;
     }
 
     .head-right {
-        width: 50%;
+        width: 40%;
+    }
+
+    .head-right img {
+        background-repeat: no-repeat;
+        height: 90px;
+        margin-top: 20px;
     }
 
     .head-left h1{
@@ -307,9 +312,9 @@
     }
 
     .head-left p{
-        margin-top: 8px;
         font-size: 9px;
         line-height: 9px;
+        margin: 8px 0 20px 0;
     }
 
     .head-left a{
@@ -320,8 +325,6 @@
 
     .btn-head {
         display: block;
-        position: absolute;
-        bottom: 10px;
     }
 
     .txt {

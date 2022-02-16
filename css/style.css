@@ -103,6 +103,9 @@ header{
 
 .head-right {
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .head-left h1{
@@ -116,7 +119,7 @@ header{
     color: #f1bf62;
     opacity: .9;
     font-size: 16px;
-    margin: 32px 0 100px 0;
+    margin: 32px 0 90px 0;
 }
 
 .head-left a{
