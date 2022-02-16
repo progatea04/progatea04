@@ -128,7 +128,7 @@ header{
     border-radius: 4px;
     background-color: #eba41f;
     color: white;
-    box-shadow:0 5px #f1bf62;
+    box-shadow: 0 5px 9px rgb(226, 223, 223);
 }
 
 .head-left a:active{
