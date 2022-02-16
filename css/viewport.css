@@ -5,9 +5,18 @@
 
 
 @media (max-width: 620px) {
+    .container-aside {
+        border: 1px solid black;
+    }
+
     .container-aside h2 {
-        font-size: 18px;
+        font-size: 18px;    
         text-align: center;
+    }
+
+    .container-aside h2, .card-produk {
+        margin-top: -32px;
+        border: 2px solid black;
     }
 
     .card-produk.tiga {
