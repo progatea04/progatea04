@@ -26,6 +26,7 @@ nav {
     height: 80px;
     padding: 0 1em;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 999;
     box-shadow: 0 2px 1px rgba(212, 208, 208, .5);
@@ -87,38 +88,38 @@ nav {
     align-items: center;
 }
 
-/* 
+
 
 header{
-    height: 500px;
     display: flex;
-    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 48px;
 }
 
-.head{
-    flex: auto;
-    width: 42%;
-    padding: 100px 50px;
+.head-left {
+    width: 60%;
+    padding: 32px;
 }
 
-.header-imgv2{
-    display: none;
+.head-right {
+    width: 40%;
 }
 
-.left h1{
+.head-left h1{
     color:#f1bf62 ;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 32px;
     line-height: 35px;
+    padding-top: 32px;
 }
 
-.left p{
+.head-left p{
     color: #f1bf62;
-    font-size: 17px;
-    margin-bottom: 50px;
+    opacity: .9;
+    font-size: 16px;
+    margin: 32px 0 100px 0;
 }
 
-.left a{
+.head-left a{
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 4px;
@@ -127,15 +128,11 @@ header{
     box-shadow:0 5px #f1bf62;
 }
 
-.left a:active{
+.head-left a:active{
     box-shadow: none;
     position: relative;
     top: 7px;
 }
-
-.right{
-    float: right;
-} */
 
 /* ============ nico akhir ============= */
 

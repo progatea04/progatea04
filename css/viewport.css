@@ -195,7 +195,7 @@
 
 /*nico*/
 @media(max-width:1000px){
-    /* nav{
+    nav{
         width: 100%;
         position: fixed;
     }
@@ -236,7 +236,7 @@
 
     .header-imgv2{
         display: none;
-    } */
+    } 
 }
 
 @media(max-width:620px){
@@ -283,41 +283,48 @@
         right: 20px;
     }
 
-    /*
+    
+
 
     header{
         width: 100%;
+        margin-top: 60px;
+        max-height: 250px;
     }
-
-    .head{
-        padding: 100px 20px;
-    }
-
-    .left h1{
-        font-size: 20px;
-        line-height: 25px;
+    
+    .head-left {
         width: 70%;
+        position: relative;
     }
 
-    .left p{
+    .head-right {
+        width: 50%;
+    }
+
+    .head-left h1{
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    .head-left p{
+        margin-top: 8px;
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .head-left a{
+        padding: 3px;
+        height: 40px;
         font-size: 12px;
     }
 
-    .right{
-        float: left;
-        width:30%;
+    .btn-head {
+        display: block;
+        position: absolute;
+        bottom: 10px;
     }
 
-    .header-img{
+    .txt {
         display: none;
     }
-
-    .header-imgv2{
-        display: block;
-    }
-
-    .right img{
-        width: 150px;
-        height: 300px;
-    } */
 }
