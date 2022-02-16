@@ -5,6 +5,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 18px;
+    overflow-x: hidden;
 }
 
 
@@ -45,10 +46,69 @@ header {
 
 
 /* ============ anisa ============= */
-aside.sesuaikan {
-    height: 300px;
+.container-aside {
     background-color: #eba41f;
+    padding-top: 32px;
 }
+
+.container-aside h2 {
+    color: #fff;
+    padding: 32px;
+}
+
+.container-aside svg {
+    display: block;
+}
+
+.produk-aside {
+    margin-top: 12px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.produk-aside h1 {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.produk-aside a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.produk-aside a:hover {
+    color: #d35400;
+}
+
+.card-produk {
+    width: 250px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: #fff;
+    margin-right: 8px;
+    position: relative;
+}
+
+.harga {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(211, 84, 0, .6);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.harga p {
+    text-align: center;
+    color: #fff;
+}
+
 
 /* =========== anisa akhir =========== */
 
@@ -72,9 +132,7 @@ main {
 }
 
 .judul	{
-	margin-bottom: 3%;
 	color: #eba41f;
-	margin-bottom: 10px;
     padding: 32px;
 }
 
@@ -93,6 +151,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+    padding-top: -48px;
 }
 
 .promo .sub-promo	{
