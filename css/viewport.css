@@ -187,3 +187,103 @@
         width: 100%;
     }
 }
+
+/*nico*/
+@media(max-width:1000px){
+    nav{
+        width: 95%;
+        position: fixed;
+    }
+    
+    .header-list a{
+        font-size: 18px;
+    }
+
+    .header-profile a{
+        font-size: 18px;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .left h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .right{
+        padding-left: 0;
+    }
+
+    .head img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .header-imgv2{
+        display: none;
+    }
+}
+
+@media(max-width:620px){
+    nav{
+        width: 98%;
+        height: 60px;
+    }
+
+
+    .header-logo{
+        height: 60px;
+    }
+
+    .logo-profile{
+        height: 60px;
+        float: left;
+    }
+
+    .header-list a{
+        display: none;
+    }
+
+    .header-profile a{
+        font-size: 13px;
+        line-height: 60px;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .head{
+        padding: 100px 20px;
+    }
+
+    .left h1{
+        font-size: 20px;
+        line-height: 25px;
+        width: 70%;
+    }
+
+    .left p{
+        font-size: 12px;
+    }
+
+    .right{
+        float: left;
+        width:30%;
+    }
+
+    .header-img{
+        display: none;
+    }
+
+    .header-imgv2{
+        display: block;
+    }
+
+    .right img{
+        width: 150px;
+        height: 300px;
+    }
+}
