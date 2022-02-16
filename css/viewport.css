@@ -188,10 +188,15 @@
     }
 }
 
+
+
+
+
+
 /*nico*/
 @media(max-width:1000px){
-    nav{
-        width: 95%;
+    /* nav{
+        width: 100%;
         position: fixed;
     }
     
@@ -199,8 +204,16 @@
         font-size: 18px;
     }
 
+    .header-logo {
+        width: 60px;
+    }
+
     .header-profile a{
         font-size: 18px;
+    }
+
+    .header-profile {
+        display: none;
     }
 
     header{
@@ -223,26 +236,31 @@
 
     .header-imgv2{
         display: none;
-    }
+    } */
 }
 
 @media(max-width:620px){
     nav{
-        width: 98%;
+        width: 100%;
         height: 60px;
     }
-
 
     .header-logo{
         height: 60px;
+        width: 100px;
     }
 
     .logo-profile{
-        height: 60px;
+        height: 30px;
         float: left;
+        border: 2px solid white;
     }
 
     .header-list a{
+        display: none;
+    }
+
+    .header-profile {
         display: none;
     }
 
@@ -250,6 +268,22 @@
         font-size: 13px;
         line-height: 60px;
     }
+     
+    .navbar {
+        width: 100%;
+        height: 60px;
+        display: block;
+        position: relative;
+    }
+
+    .fa-bars {
+        height: 60px;
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+
+    /*
 
     header{
         width: 100%;
@@ -285,5 +319,5 @@
     .right img{
         width: 150px;
         height: 300px;
-    }
+    } */
 }
