@@ -22,19 +22,94 @@ main, footer {
 
 /* ============ nico ============= */
 nav {
-    height: 80px;
     background-color: #eba41f;
+    height: 80px;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
-
-/* logo */
-nav img {
-    margin-left: 40px;
+.header-list{
+    float: left;
 }
 
-header {
-    height: 420px;
-    background-color: #ddd;
+.header-logo{
+    float: left;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: #fdf5d8;
+    font-size: 22px;
+    margin-right: 15px;
+    line-height: 80px;
+}    
+
+.header-profile{
+    float: right;
+    height: 80px;
+}
+
+.logo-profile{
+    margin: 3px 0;
+}
+
+.header-profile a{
+    line-height: 80px;
+    text-decoration: none;
+    color: #fdf5d8;
+    font-size: 22px;
+    float: right;
+    margin-left: 10px;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head{
+    flex: auto;
+    width: 42%;
+    padding: 100px 50px;
+}
+
+.header-imgv2{
+    display: none;
+}
+
+.left h1{
+    color:#f1bf62 ;
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+
+.left p{
+    color: #f1bf62;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.left a{
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #eba41f;
+    color: white;
+    box-shadow:0 5px #f1bf62;
+}
+
+.left a:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.right{
+    float: right;
 }
 
 /* ============ nico akhir ============= */
