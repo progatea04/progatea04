@@ -394,6 +394,12 @@ aside.info {
     margin-right: 32px;
     border-radius: 4px;
     box-shadow: 0 5px 9px rgb(226, 223, 223);
+    transition: 0.5s;
+}
+
+.cards-info:hover   {
+    box-shadow: 0 0 20px  rgb(180, 180, 180);
+    transform: scale(1.01);
 }
 
 .header-card {
