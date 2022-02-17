@@ -163,6 +163,11 @@
         margin: 32px 0 42px 0;
     }
     
+    .fa-instagram, .fa-facebook, .fa-twitter {
+        font-size: 21px;
+        margin: auto;
+        padding-left: 20px;
+    }
 }
 
 
