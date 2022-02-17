@@ -389,6 +389,7 @@ aside.info {
 }
 
 .cards-info img {
+    width: 100%;
     background-size: cover;
 }
 
