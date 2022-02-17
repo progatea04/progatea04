@@ -9,13 +9,7 @@ body {
 }
 
 
-/* nanti dihapus aja,
- header, aside,
-main, footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 
 
@@ -110,6 +104,7 @@ header{
 
 .head-left h1{
     color:#f1bf62 ;
+    font-weight: bold;
     font-size: 32px;
     line-height: 35px;
     padding-top: 32px;
@@ -117,6 +112,7 @@ header{
 
 .head-left p{
     color: #f1bf62;
+    font-weight: 400;
     opacity: .9;
     font-size: 16px;
     margin: 32px 0 90px 0;
@@ -273,6 +269,32 @@ main {
 .btn	{
 	width: 200px;
 	height: 132px;
+}
+
+.btn-head {
+    opacity: 0.8;
+    transition: all 100ms;
+    animation-name: backgroundBtn;
+    animation: backgroundBtn 1.6s;
+}
+
+.btn-head:hover {
+    opacity: 1;
+}
+
+/* animasi btn */
+@keyframes backgroundBtn {
+    10% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .9;
+    }
+
+    100% {
+        opacity: .8;
+    }
 }
 
 .promotion figcaption a	{
@@ -508,6 +530,7 @@ footer {
 .layanan ul li a, .dukungan ul li a, .bantuan ul li a,
 .container-copyright p {
     color: #fff;
+    transition: all 100ms;
 }
 
 .layanan h4, .dukungan h4, .bantuan h4, .sosmed h4 {
@@ -522,6 +545,10 @@ footer {
     text-align: center;
 }
 
+ul li a:hover {
+    color: #cc8500;
+}
+
 ul li {
     list-style: none;
     line-height: 18px;
@@ -530,8 +557,6 @@ ul li {
 .dukungan, .layanan, .bantuan {
     margin-right: 48px;
 }
-
-
 
 .sosmed {
     width: 30%;
