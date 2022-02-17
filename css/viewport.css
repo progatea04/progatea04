@@ -140,8 +140,7 @@
 
     .penting {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
         text-align: center;
@@ -154,19 +153,19 @@
 
     .bantuan, .layanan, .dukungan {
         margin-top: 32px;
+        border: 2px solid green;
     }
 
     .sosmed {
         border: 2px solid green;
-        width: 100%;
+        width: 80%;
         text-align: center;
-        margin: 32px 0 42px 0;
+        margin: 32px 20px;
     }
     
     .fa-instagram, .fa-facebook, .fa-twitter {
         font-size: 21px;
         margin: auto;
-        padding-left: 20px;
     }
 }
 
