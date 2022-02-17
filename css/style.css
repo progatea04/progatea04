@@ -187,7 +187,6 @@ header{
 .card-produk {
     width: 250px;
     height: 200px;
-    border: 1px solid white;
     background-color: #fff;
     margin-right: 8px;
     position: relative;
@@ -369,7 +368,6 @@ aside.info {
     width: 100%;
     height: 320px;
     overflow: hidden;
-    border: 1px solid #ddd;
     position: relative;
     margin-right: 32px;
     border-radius: 4px;
@@ -472,7 +470,6 @@ aside.info {
 }
 
 .header-location h3 {
-    border: 20x solid green;
     font-size: 28px;
     color: #eba41f;
     margin-bottom: 32px;
