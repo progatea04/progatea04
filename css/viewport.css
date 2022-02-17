@@ -115,6 +115,24 @@
         font-size: 14px;
     }
 
+
+    .container-location {
+        margin-top: -12px;
+    }
+
+    .header-location h3 {
+        font-size: 21px;
+        margin-bottom: 23px;
+        padding-bottom: 20px;
+        text-align: center;
+        border-bottom: 1px solid rgba(211, 84, 0, .2);
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+
     
 }
 
@@ -148,6 +166,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .judul {
+        margin-bottom: 40px;
+    }
     .judul h3 {
         font-size: 21px;   
         text-align: center;
