@@ -153,11 +153,9 @@
 
     .bantuan, .layanan, .dukungan {
         margin-top: 32px;
-        border: 2px solid green;
     }
 
     .sosmed {
-        border: 2px solid green;
         width: 80%;
         text-align: center;
         margin: 32px 20px;
@@ -165,7 +163,7 @@
     
     .fa-instagram, .fa-facebook, .fa-twitter {
         font-size: 21px;
-        margin: auto;
+        margin-right: 6px;
     }
 }
 
