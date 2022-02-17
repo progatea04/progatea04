@@ -140,7 +140,9 @@
 
     .penting {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 100%;
         text-align: center;
     }
@@ -151,7 +153,14 @@
     }
 
     .bantuan, .layanan, .dukungan {
-        margin-top: 21px;
+        margin-top: 32px;
+    }
+
+    .sosmed {
+        border: 2px solid green;
+        width: 100%;
+        text-align: center;
+        margin: 32px 0 42px 0;
     }
     
 }
