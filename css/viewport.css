@@ -133,6 +133,26 @@
         height: 400px;
     }
 
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .penting {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .penting h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .bantuan, .layanan, .dukungan {
+        margin-top: 21px;
+    }
     
 }
 

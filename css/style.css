@@ -478,8 +478,78 @@ aside.info {
 
 footer {
     background-color: #eba41f;
-    height: 120px;
+}
+
+.container-footer {
+    padding: 32px;
+    display: flex;
+}
+
+.logo-footer {
+    border: 2px solid green;
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer p {
+    border: 1px solid white;
+    padding-top: 6%;
+}
+
+.penting {
+    padding-left: 23px;
+    display: flex;
+    width: 70%;
+}
+
+.layanan h4, .dukungan h4, .bantuan h4, .sosmed h4,
+.layanan ul li a, .dukungan ul li a, .bantuan ul li a,
+.container-copyright p {
+    color: #fff;
+}
+
+.layanan h4, .dukungan h4, .bantuan h4, .sosmed h4 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.layanan ul li a, .dukungan ul li a, .bantuan ul li a,
+.container-copyright p {
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    line-height: 18px;
+}
+
+.dukungan, .layanan, .bantuan {
+    margin-right: 48px;
 }
 
 
+
+.sosmed {
+    width: 30%;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter {
+    color: #fff;
+    font-size: 32px;
+    margin-right: 21px;
+}
+
+.sosmed a {
+    text-decoration: none;
+}
+
+.container-copyright {
+    text-align: center;
+    padding: 8px;
+    margin-top: -20px;
+}
 
